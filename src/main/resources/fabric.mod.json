@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "optimizerpro",
+  "version": "${version}",
+  "name": "Optimizer Pro",
+  "description": "Optimizacion adaptativa: ajusta varias opciones segun tus FPS y limita los FPS con la ventana en segundo plano.",
+  "authors": ["Tu"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.example.optimizerpro.OptimizerProClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
